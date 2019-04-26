@@ -1,0 +1,11 @@
+---
+title : "This is a demo simulation for only a few topics and a few users"
+n_topics : 30
+n_users : 50
+
+n_newsposts : 100
+topic_limit : 3
+
+n_steps : 50
+outputfilename : "default.rds"
+---
