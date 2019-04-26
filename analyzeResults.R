@@ -33,8 +33,9 @@ df <- as_tibble(exposure) %>%
   mutate(step = as.numeric(step)) %>% 
   mutate(news_post = factor(news_post))
   
-View(df)
+
 df %>% ggplot() +
   aes(x = step, y = value, color = news_post) +
-  geom_line()
+  geom_line() +
+  guides(color = FALSE) 
 
